@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: derived
+source:
+  - openapi/startree-query-openapi.json
+  - https://docs.startree.ai/api-reference/introduction
+authentication:
+  style: bearer-jwt
+  detail: >-
+    Bearer JWT token generated from the API Access section of the StarTree Cloud
+    Console; sent in the Authorization header on every request.
+  ref: authentication/startree-authentication.yml
+multi_tenancy:
+  header: database
+  detail: >-
+    Multi-tenant / Free Tier clusters require the workspace id (e.g. ws_...) in
+    the `database` HTTP header. Dedicated clusters do not require it.
+idempotency:
+  supported: false
+  detail: No documented idempotency-key contract on the published Query API.
+pagination:
+  style: sql
+  detail: Result-set control is expressed in SQL (LIMIT / OFFSET), not via API paging params.
+error_envelope:
+  detail: Errors surface via HTTP status; no application/problem+json envelope declared in the published spec.
+versioning:
+  ref: lifecycle/startree-lifecycle.yml
+rate_limits:
+  detail: >-
+    Query rate limiting is configurable per broker instance and application QPS
+    quotas are enforced server-side (see application/broker admin APIs).

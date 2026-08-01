@@ -1,0 +1,14 @@
+{
+  "provider": "startree",
+  "sources": [
+    "startree-query-api-api-openapi.yml"
+  ],
+  "outputs": [
+    "startree-query-api-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

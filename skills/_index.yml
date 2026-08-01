@@ -1,0 +1,8 @@
+generated: '2026-07-21'
+method: generated
+source: openapi/startree-query-openapi.json
+skills:
+  - file: startree-run-sql-query.md
+    name: Run a SQL query on StarTree Cloud
+    api: openapi/startree-query-openapi.json
+    operations: [executeQuery]

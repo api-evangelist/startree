@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.startree.ai/reference/startree-release-notes
+versioning:
+  scheme: semver
+  current: 0.15.0
+  docs: https://docs.startree.ai/reference/startree-release-notes
+status_page: https://startree.statuspage.io
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []
+notes: >-
+  StarTree Cloud ships dated, semver-tagged release notes (current 0.15.0, April
+  2026) and a public Statuspage. No formal machine-readable deprecation policy or
+  Sunset/Deprecation header contract was found in the published Query API surface.

@@ -1,0 +1,24 @@
+overlay: 1.0.0
+info:
+  title: API Evangelist enhancements for StarTree Cloud Query API
+  version: 1.0.0
+extends: openapi/startree-query-openapi.json
+actions:
+  - target: $.info
+    update:
+      x-apievangelist-provider: startree
+      x-apievangelist-artifact-set:
+        - authentication/startree-authentication.yml
+        - conventions/startree-conventions.yml
+        - mcp/startree-mcp.yml
+        - packages/startree-packages.yml
+      x-api-evangelist-rating-round: '2026-07-21'
+  - target: $.paths['/query/sql'].post
+    update:
+      x-agent-ready: true
+      x-idempotent: true
+      x-read-only: true
+      x-notes: >-
+        Read-only SQL query execution against the StarTree Cloud Broker. Requires
+        a Bearer JWT; multi-tenant / Free Tier clusters also require the workspace
+        id in the `database` header.

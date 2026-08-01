@@ -1,0 +1,639 @@
+# StarTree Docs
+
+## Docs
+
+- [Get progress and estimated completion time for the task](https://docs.startree.ai/api-reference/altertable/get-progress-and-estimated-completion-time-for-the-task.md)
+- [Get appconfigs](https://docs.startree.ai/api-reference/appconfigs/get-appconfigs.md)
+- [Get all application qps quotas](https://docs.startree.ai/api-reference/application/get-all-application-qps-quotas.md): Get all application qps quotas
+- [Get application qps quota](https://docs.startree.ai/api-reference/application/get-application-qps-quota.md): Get application qps quota
+- [Update application quota](https://docs.startree.ai/api-reference/application/update-application-quota.md): Update application quota
+- [Delete the minion task metadata](https://docs.startree.ai/api-reference/atomicingestion/delete-the-minion-task-metadata.md)
+- [Get Segment to rows factor from customMap of progress metadata](https://docs.startree.ai/api-reference/atomicingestion/get-segment-to-rows-factor-from-custommap-of-progress-metadata.md)
+- [Mark the end of data ingestion to upload multiple segments](https://docs.startree.ai/api-reference/atomicingestion/mark-the-end-of-data-ingestion-to-upload-multiple-segments.md)
+- [Mark the start of data ingestion to upload multiple segments](https://docs.startree.ai/api-reference/atomicingestion/mark-the-start-of-data-ingestion-to-upload-multiple-segments.md)
+- [Check whether authentication is enabled](https://docs.startree.ai/api-reference/auth/check-whether-authentication-is-enabled.md)
+- [Retrieve auth workflow info](https://docs.startree.ai/api-reference/auth/retrieve-auth-workflow-info.md)
+- [Get the list of servers to restart in sequence](https://docs.startree.ai/api-reference/batchrestart/get-the-list-of-servers-to-restart-in-sequence.md)
+- [Enable/disable the query rate limiting for a broker instance](https://docs.startree.ai/api-reference/broker/enabledisable-the-query-rate-limiting-for-a-broker-instance.md): Enable/disable the query rate limiting for a broker instance
+- [List brokers for a given table](https://docs.startree.ai/api-reference/broker/list-brokers-for-a-given-table.md): List brokers for a given table
+- [List brokers for a given table](https://docs.startree.ai/api-reference/broker/list-brokers-for-a-given-table-1.md): List brokers for a given table
+- [List brokers for a given tenant](https://docs.startree.ai/api-reference/broker/list-brokers-for-a-given-tenant.md): List brokers for a given tenant
+- [List brokers for a given tenant](https://docs.startree.ai/api-reference/broker/list-brokers-for-a-given-tenant-1.md): List brokers for a given tenant
+- [List tables to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tables-to-brokers-mappings.md): List tables to brokers mappings
+- [List tables to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tables-to-brokers-mappings-1.md): List tables to brokers mappings
+- [List tenants and tables to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tenants-and-tables-to-brokers-mappings.md): List tenants and tables to brokers mappings
+- [List tenants and tables to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tenants-and-tables-to-brokers-mappings-1.md): List tenants and tables to brokers mappings
+- [List tenants to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tenants-to-brokers-mappings.md): List tenants to brokers mappings
+- [List tenants to brokers mappings](https://docs.startree.ai/api-reference/broker/list-tenants-to-brokers-mappings-1.md): List tenants to brokers mappings
+- [Delete cluster configuration](https://docs.startree.ai/api-reference/cluster/delete-cluster-configuration.md)
+- [Get cluster Info](https://docs.startree.ai/api-reference/cluster/get-cluster-info.md): Get cluster Info
+- [Get debug information for segment.](https://docs.startree.ai/api-reference/cluster/get-debug-information-for-segment.md): Debug information for segment.
+- [Get debug information for table.](https://docs.startree.ai/api-reference/cluster/get-debug-information-for-table.md): Debug information for table.
+- [Get the configuration for Groovy Static analysis](https://docs.startree.ai/api-reference/cluster/get-the-configuration-for-groovy-static-analysis.md): Get the configuration for Groovy static analysis
+- [Get the default configuration for Groovy Static analysis](https://docs.startree.ai/api-reference/cluster/get-the-default-configuration-for-groovy-static-analysis.md): Get the default configuration for Groovy static analysis
+- [List cluster configurations](https://docs.startree.ai/api-reference/cluster/list-cluster-configurations.md): List cluster level configurations
+- [Update cluster configuration](https://docs.startree.ai/api-reference/cluster/update-cluster-configuration.md)
+- [Update Groovy static analysis configuration](https://docs.startree.ai/api-reference/cluster/update-groovy-static-analysis-configuration.md)
+- [Enable / disable the periodic cluster health check task. Note that this setting isn't persisted across controller restarts and /cluster/configs should be used to disable it permanently](https://docs.startree.ai/api-reference/clusterhealth/enable-disable-the-periodic-cluster-health-check-task-note-that-this-setting-isnt-persisted-across-controller-restarts-and-clusterconfigs-should-be-used-to-disable-it-permanently.md)
+- [Get all available cluster health checks and their details](https://docs.startree.ai/api-reference/clusterhealth/get-all-available-cluster-health-checks-and-their-details.md)
+- [Get cached cluster health details for all pinot entities](https://docs.startree.ai/api-reference/clusterhealth/get-cached-cluster-health-details-for-all-pinot-entities.md)
+- [Get cluster properties if deployed in AZ aware mode](https://docs.startree.ai/api-reference/clusterhealth/get-cluster-properties-if-deployed-in-az-aware-mode.md)
+- [browse](https://docs.startree.ai/api-reference/connection/browse.md): Browse resources in a connection. Eg list directories/files in a s3 bucket, list tables in a database, list topics in a Kafka cluster etc.
+- [Update consistentPush state](https://docs.startree.ai/api-reference/consistentpush/update-consistentpush-state.md)
+- [Delete all tables in given database name](https://docs.startree.ai/api-reference/database/delete-all-tables-in-given-database-name.md): Delete all tables in given database name
+- [Get database quota configs](https://docs.startree.ai/api-reference/database/get-database-quota-configs.md): Get database quota configs
+- [List all database names](https://docs.startree.ai/api-reference/database/list-all-database-names.md): Lists all database names
+- [Update database quotas](https://docs.startree.ai/api-reference/database/update-database-quotas.md): Update database quotas
+- [Query Data](https://docs.startree.ai/api-reference/dataplane/query.md): Run SQL queries on StarTree Cloud's real-time analytics engine.
+- [Add metadata location of a new dedup snapshot](https://docs.startree.ai/api-reference/dedupsnapshot/add-metadata-location-of-a-new-dedup-snapshot.md)
+- [Add metadata of a new dedup snapshot](https://docs.startree.ai/api-reference/dedupsnapshot/add-metadata-of-a-new-dedup-snapshot.md)
+- [Delete dedup snapshot and its metadata](https://docs.startree.ai/api-reference/dedupsnapshot/delete-dedup-snapshot-and-its-metadata.md)
+- [Get all dedup snapshot names for the table](https://docs.startree.ai/api-reference/dedupsnapshot/get-all-dedup-snapshot-names-for-the-table.md)
+- [Get dedup snapshot metadata by the snapshot name](https://docs.startree.ai/api-reference/dedupsnapshot/get-dedup-snapshot-metadata-by-the-snapshot-name.md)
+- [Get latest dedup snapshot names for all partitions](https://docs.startree.ai/api-reference/dedupsnapshot/get-latest-dedup-snapshot-names-for-all-partitions.md)
+- [Check controller health](https://docs.startree.ai/api-reference/health/check-controller-health.md)
+- [Check controller health](https://docs.startree.ai/api-reference/health/check-controller-health-1.md)
+- [Get controller start time](https://docs.startree.ai/api-reference/health/get-controller-start-time.md)
+- [Get controller uptime](https://docs.startree.ai/api-reference/health/get-controller-uptime.md)
+- [Check if it's safe to drop the given instances. If not list all the reasons why its not safe.](https://docs.startree.ai/api-reference/instance/check-if-its-safe-to-drop-the-given-instances-if-not-list-all-the-reasons-why-its-not-safe.md)
+- [Check if it's safe to update the tags of the given instances. If not list all the reasons.](https://docs.startree.ai/api-reference/instance/check-if-its-safe-to-update-the-tags-of-the-given-instances-if-not-list-all-the-reasons.md)
+- [Create a new instance](https://docs.startree.ai/api-reference/instance/create-a-new-instance.md): Creates a new instance with given instance config
+- [Drop an instance](https://docs.startree.ai/api-reference/instance/drop-an-instance.md): Drop an instance
+- [Enable/disable an instance](https://docs.startree.ai/api-reference/instance/enabledisable-an-instance.md): Enable/disable an instance
+- [Enable/disable/drop an instance](https://docs.startree.ai/api-reference/instance/enabledisabledrop-an-instance.md): Enable/disable/drop an instance
+- [Get instance information](https://docs.startree.ai/api-reference/instance/get-instance-information.md)
+- [List all instances](https://docs.startree.ai/api-reference/instance/list-all-instances.md)
+- [List all live instances](https://docs.startree.ai/api-reference/instance/list-all-live-instances.md)
+- [Update the specified instance](https://docs.startree.ai/api-reference/instance/update-the-specified-instance.md): Update specified instance with given instance config
+- [Update the tables served by the specified broker instance in the broker resource](https://docs.startree.ai/api-reference/instance/update-the-tables-served-by-the-specified-broker-instance-in-the-broker-resource.md): Broker resource should be updated when a new broker instance is added, or the tags for an existing broker are changed. Updating broker resource requires reading all the table configs, which can be costly for large cluster. Consider updating broker resource for each table individually.
+- [Update the tags of the specified instance](https://docs.startree.ai/api-reference/instance/update-the-tags-of-the-specified-instance.md): Update the tags of the specified instance
+- [Introduction](https://docs.startree.ai/api-reference/introduction.md): Learn about StarTree Cloud APIs for managing tables and querying data at scale.
+- [Gets leader for a given table](https://docs.startree.ai/api-reference/leader/gets-leader-for-a-given-table.md): Gets leader for a given table
+- [Gets leaders for all tables](https://docs.startree.ai/api-reference/leader/gets-leaders-for-all-tables.md): Gets leaders for all tables
+- [Collect log files from a given instance](https://docs.startree.ai/api-reference/logger/collect-log-files-from-a-given-instance.md)
+- [Collect log files from all the instances](https://docs.startree.ai/api-reference/logger/collect-log-files-from-all-the-instances.md)
+- [Download a log file](https://docs.startree.ai/api-reference/logger/download-a-log-file.md)
+- [Download a log file from a given instance](https://docs.startree.ai/api-reference/logger/download-a-log-file-from-a-given-instance.md)
+- [Get all local log files](https://docs.startree.ai/api-reference/logger/get-all-local-log-files.md)
+- [Get all the loggers](https://docs.startree.ai/api-reference/logger/get-all-the-loggers.md): Return all the logger names
+- [Get logger configs](https://docs.startree.ai/api-reference/logger/get-logger-configs.md): Return logger info
+- [Set logger level](https://docs.startree.ai/api-reference/logger/set-logger-level.md): Set logger level for a given logger
+- [Get perf advisor recommendations given a query](https://docs.startree.ai/api-reference/perfadvisor/get-perf-advisor-recommendations-given-a-query.md)
+- [Get comma-delimited list of all available periodic task names.](https://docs.startree.ai/api-reference/periodictask/get-comma-delimited-list-of-all-available-periodic-task-names.md)
+- [Run periodic task against table. If table name is missing, task will run against all tables.](https://docs.startree.ai/api-reference/periodictask/run-periodic-task-against-table-if-table-name-is-missing-task-will-run-against-all-tables.md)
+- [Cancel a query as identified by the clientQueryId](https://docs.startree.ai/api-reference/query/cancel-a-query-as-identified-by-the-clientqueryid.md): No effect if no query exists for the given clientQueryId on the requested broker. Query may continue to run for a short while after callingcancel as it's done in a non-blocking manner. The cancel method can be called multiple times.
+- [Cancel a query as identified by the clientQueryId](https://docs.startree.ai/api-reference/query/cancel-a-query-as-identified-by-the-clientqueryid-1.md): No effect if no query exists forthe given clientQueryId on any broker. Query may continue to run for a short while after callingcancel as it's done in a non-blocking manner. The cancel method can be called multiple times.
+- [Cancel a query as identified by the queryId](https://docs.startree.ai/api-reference/query/cancel-a-query-as-identified-by-the-queryid.md): No effect if no query exists for the given queryId on the requested broker. Query may continue to run for a short while after calling cancel as it's done in a non-blocking manner. The cancel method can be called multiple times.
+- [Get running queries from all brokers](https://docs.startree.ai/api-reference/query/get-running-queries-from-all-brokers.md): The queries are returned with brokers running them
+- [Update rate limiter configs](https://docs.startree.ai/api-reference/ratelimiter/update-rate-limiter-configs.md): Update all the rate limiter configs
+- [Cancel a restream operation](https://docs.startree.ai/api-reference/restream/cancel-a-restream-operation.md): Cancel a restream operation
+- [DEBUG ONLY: Process the next stage of the restream workflow.](https://docs.startree.ai/api-reference/restream/debug-only:-process-the-next-stage-of-the-restream-workflow.md): DEBUG ONLY: Process the next stage of the restream workflow.
+- [Gets detailed stats of a restream operation](https://docs.startree.ai/api-reference/restream/gets-detailed-stats-of-a-restream-operation.md): Gets detailed stats of a restream operation
+- [Restream data from a stream to a new table. Then replace the table](https://docs.startree.ai/api-reference/restream/restream-data-from-a-stream-to-a-new-table-then-replace-the-table.md): Restream a table
+- [Add a new schema](https://docs.startree.ai/api-reference/schema/add-a-new-schema.md): Adds a new schema
+- [Delete a schema](https://docs.startree.ai/api-reference/schema/delete-a-schema.md): Deletes a schema by name
+- [Get a schema](https://docs.startree.ai/api-reference/schema/get-a-schema.md): Gets a schema by name
+- [Get fieldSpec metadata](https://docs.startree.ai/api-reference/schema/get-fieldspec-metadata.md): Get fieldSpec metadata
+- [Get table schema](https://docs.startree.ai/api-reference/schema/get-table-schema.md): Read table schema
+- [List all schema names](https://docs.startree.ai/api-reference/schema/list-all-schema-names.md): Lists all schema names
+- [List all schemas info with count of field specs](https://docs.startree.ai/api-reference/schema/list-all-schemas-info-with-count-of-field-specs.md): Lists all schemas with field count details
+- [Update a schema](https://docs.startree.ai/api-reference/schema/update-a-schema.md): Updates a schema
+- [Validate schema](https://docs.startree.ai/api-reference/schema/validate-schema.md): This API returns the schema that matches the one you get from 'GET /schema/{schemaName}'. This allows us to validate schema before apply.
+- [Delete a segment](https://docs.startree.ai/api-reference/segment/delete-a-segment.md): Delete a segment
+- [Delete selected segments. An optional 'excludeReplacedSegments' parameter is used to get the list of segments which has not yet been replaced (determined by segment lineage entries) and can be queried from the table. The value is false by default.](https://docs.startree.ai/api-reference/segment/delete-selected-segments-an-optional-excludereplacedsegments-parameter-is-used-to-get-the-list-of-segments-which-has-not-yet-been-replaced-determined-by-segment-lineage-entries-and-can-be-queried-from-the-table-the-value-is-false-by-default.md): List all segments
+- [Delete the list of segments provided in the queryParam else all segments](https://docs.startree.ai/api-reference/segment/delete-the-list-of-segments-provided-in-the-queryparam-else-all-segments.md): Delete the list of segments provided in the queryParam else all segments
+- [Delete the segments in the JSON array payload](https://docs.startree.ai/api-reference/segment/delete-the-segments-in-the-json-array-payload.md): Delete the segments in the JSON array payload
+- [Download a segment](https://docs.startree.ai/api-reference/segment/download-a-segment.md): Download a segment
+- [End to replace segments](https://docs.startree.ai/api-reference/segment/end-to-replace-segments.md): End to replace segments
+- [Get a map from segment to CRC of the segment (only apply to OFFLINE table)](https://docs.startree.ai/api-reference/segment/get-a-map-from-segment-to-crc-of-the-segment-only-apply-to-offline-table.md): Get a map from segment to CRC of the segment (only apply to OFFLINE table)
+- [Get a map from server to segments hosted by the server](https://docs.startree.ai/api-reference/segment/get-a-map-from-server-to-segments-hosted-by-the-server.md): Get a map from server to segments hosted by the server
+- [Get selected segments timestamps](https://docs.startree.ai/api-reference/segment/get-selected-segments-timestamps.md): Get the selected segments given the (inclusive) start and (exclusive) end timestamps in milliseconds. These timestamps will be compared against  minmax values of the time column in each segment. If the table is a refresh use case, the value of start and end timestamp is voided, since there is no tim…
+- [Get status for a submitted reload operation](https://docs.startree.ai/api-reference/segment/get-status-for-a-submitted-reload-operation.md): Get status for a submitted reload operation
+- [Get storage tier for all segments in the given table](https://docs.startree.ai/api-reference/segment/get-storage-tier-for-all-segments-in-the-given-table.md): Get storage tier for all segments in the given table
+- [Get storage tiers for the given segment](https://docs.startree.ai/api-reference/segment/get-storage-tiers-for-the-given-segment.md): Get storage tiers for the given segment
+- [Get the metadata for a segment](https://docs.startree.ai/api-reference/segment/get-the-metadata-for-a-segment.md): Get the metadata for a segment
+- [Get the server metadata for all table segments](https://docs.startree.ai/api-reference/segment/get-the-server-metadata-for-all-table-segments.md): Get the server metadata for all table segments
+- [Get the zookeeper metadata for all table segments](https://docs.startree.ai/api-reference/segment/get-the-zookeeper-metadata-for-all-table-segments.md): Get the zookeeper metadata for all table segments
+- [Gets a list of segments that are stale from servers hosting the table](https://docs.startree.ai/api-reference/segment/gets-a-list-of-segments-that-are-stale-from-servers-hosting-the-table.md): Gets a list of segments that are stale from servers hosting the table
+- [Gets the metadata of reload segments check from servers hosting the table](https://docs.startree.ai/api-reference/segment/gets-the-metadata-of-reload-segments-check-from-servers-hosting-the-table.md): Returns true if reload is needed on the table from any one of the servers
+- [List all segments. An optional 'excludeReplacedSegments' parameter is used to get the list of segments which has not yet been replaced (determined by segment lineage entries) and can be queried from the table. The value is false by default.](https://docs.startree.ai/api-reference/segment/list-all-segments-an-optional-excludereplacedsegments-parameter-is-used-to-get-the-list-of-segments-which-has-not-yet-been-replaced-determined-by-segment-lineage-entries-and-can-be-queried-from-the-table-the-value-is-false-by-default.md): List all segments
+- [List segment lineage](https://docs.startree.ai/api-reference/segment/list-segment-lineage.md): List segment lineage in chronologically sorted order
+- [Reingest a realtime segment](https://docs.startree.ai/api-reference/segment/reingest-a-realtime-segment.md): Reingest a segment as multipart file
+- [Reload a segment](https://docs.startree.ai/api-reference/segment/reload-a-segment.md): Reload a segment
+- [Reload all segments](https://docs.startree.ai/api-reference/segment/reload-all-segments.md): Reload all segments
+- [Resets a segment by first disabling it, waiting for external view to stabilize, and finally enabling it again](https://docs.startree.ai/api-reference/segment/resets-a-segment-by-first-disabling-it-waiting-for-external-view-to-stabilize-and-finally-enabling-it-again.md): Resets a segment by disabling and then enabling it
+- [Resets all segments (when errorSegmentsOnly = false) or segments with Error state (when errorSegmentsOnly = true) of the table, by first disabling them, waiting for external view to stabilize, and finally enabling them](https://docs.startree.ai/api-reference/segment/resets-all-segments-when-errorsegmentsonly-=-false-or-segments-with-error-state-when-errorsegmentsonly-=-true-of-the-table-by-first-disabling-them-waiting-for-external-view-to-stabilize-and-finally-enabling-them.md): Resets segments by disabling and then enabling them
+- [Revert segments replacement](https://docs.startree.ai/api-reference/segment/revert-segments-replacement.md): Revert segments replacement
+- [Start to replace segments](https://docs.startree.ai/api-reference/segment/start-to-replace-segments.md): Start to replace segments
+- [Update the start and end time of the segments based on latest schema](https://docs.startree.ai/api-reference/segment/update-the-start-and-end-time-of-the-segments-based-on-latest-schema.md): Update the start and end time of the segments based on latest schema
+- [Upload a batch of segments](https://docs.startree.ai/api-reference/segment/upload-a-batch-of-segments.md): Upload a batch of segments with METADATA upload type
+- [Upload a segment](https://docs.startree.ai/api-reference/segment/upload-a-segment.md): Upload a segment as binary
+- [Upload a segment](https://docs.startree.ai/api-reference/segment/upload-a-segment-1.md): Upload a segment as binary
+- [Add the TableConfigs using the tableConfigsStr json](https://docs.startree.ai/api-reference/table/add-the-tableconfigs-using-the-tableconfigsstr-json.md): Add the TableConfigs using the tableConfigsStr json
+- [Adds a table](https://docs.startree.ai/api-reference/table/adds-a-table.md): Adds a table
+- [Assign server instances to a table](https://docs.startree.ai/api-reference/table/assign-server-instances-to-a-table.md)
+- [Cancel all rebalance jobs for the given table, and noop if no rebalance is running](https://docs.startree.ai/api-reference/table/cancel-all-rebalance-jobs-for-the-given-table-and-noop-if-no-rebalance-is-running.md): Cancel all rebalance jobs for the given table, and noop if no rebalance is running
+- [Create/update the instance partitions](https://docs.startree.ai/api-reference/table/createupdate-the-instance-partitions.md)
+- [Delete hybrid table query time boundary](https://docs.startree.ai/api-reference/table/delete-hybrid-table-query-time-boundary.md): Delete hybrid table query time boundary
+- [Delete tables partitions](https://docs.startree.ai/api-reference/table/delete-tables-partitions.md)
+- [Delete the TableConfigs](https://docs.startree.ai/api-reference/table/delete-the-tableconfigs.md): Delete the TableConfigs
+- [Deletes a table](https://docs.startree.ai/api-reference/table/deletes-a-table.md): Deletes a table
+- [Enable/disable a table](https://docs.startree.ai/api-reference/table/enabledisable-a-table.md): Enable/disable a table
+- [Force commit the current consuming segments](https://docs.startree.ai/api-reference/table/force-commit-the-current-consuming-segments.md): Force commit the current segments in consuming state and restart consumption. This should be used after schema/table config changes. Please note that this is an asynchronous operation, and 200 response does not mean it has actually been done already.If specific partitions or consuming segments are p…
+- [Get current table state](https://docs.startree.ai/api-reference/table/get-current-table-state.md): Get current table state
+- [Get list of controller jobs for this table](https://docs.startree.ai/api-reference/table/get-list-of-controller-jobs-for-this-table.md): Get list of controller jobs for this table
+- [Get segment names to segment status map](https://docs.startree.ai/api-reference/table/get-segment-names-to-segment-status-map.md): Get segment statuses of each segment
+- [Get status for a submitted force commit operation](https://docs.startree.ai/api-reference/table/get-status-for-a-submitted-force-commit-operation.md): Get status for a submitted force commit operation
+- [Get table external view](https://docs.startree.ai/api-reference/table/get-table-external-view.md): Get table external view
+- [Get table ideal state](https://docs.startree.ai/api-reference/table/get-table-ideal-state.md): Get table ideal state
+- [Get the aggregate index details of all segments for a table](https://docs.startree.ai/api-reference/table/get-the-aggregate-index-details-of-all-segments-for-a-table.md): Get the aggregate index details of all segments for a table
+- [Get the aggregate metadata of all segments for a table](https://docs.startree.ai/api-reference/table/get-the-aggregate-metadata-of-all-segments-for-a-table.md): Get the aggregate metadata of all segments for a table
+- [Get the aggregate validDocIds metadata of all segments for a table](https://docs.startree.ai/api-reference/table/get-the-aggregate-validdocids-metadata-of-all-segments-for-a-table.md): Get the aggregate validDocIds metadata of all segments for a table
+- [Get the instance partitions](https://docs.startree.ai/api-reference/table/get-the-instance-partitions.md)
+- [Get the TableConfigs for a given raw tableName](https://docs.startree.ai/api-reference/table/get-the-tableconfigs-for-a-given-raw-tablename.md): Get the TableConfigs for a given raw tableName
+- [Gets detailed stats of a rebalance operation](https://docs.startree.ai/api-reference/table/gets-detailed-stats-of-a-rebalance-operation.md): Gets detailed stats of a rebalance operation
+- [Ingest a file](https://docs.startree.ai/api-reference/table/ingest-a-file.md): Creates a segment using given file and pushes it to Pinot.   All steps happen on the controller. This API is NOT meant for production environments/large input files.   Example usage (query params need encoding): ``` curl -X POST -F file=@data.json -H "Content-Type: multipart/form-data" "http://local…
+- [Ingest from the given URI](https://docs.startree.ai/api-reference/table/ingest-from-the-given-uri.md): Creates a segment using file at the given URI and pushes it to Pinot.   All steps happen on the controller. This API is NOT meant for production environments/large input files.  Example usage (query params need encoding): ``` curl -X POST "http://localhost:9000/ingestFromURI?tableNameWithType=foo_OF…
+- [List table instances](https://docs.startree.ai/api-reference/table/list-table-instances.md): List instances of the given table
+- [List tables to live brokers mappings](https://docs.startree.ai/api-reference/table/list-tables-to-live-brokers-mappings.md): List tables to live brokers mappings based on EV
+- [List the brokers serving a table](https://docs.startree.ai/api-reference/table/list-the-brokers-serving-a-table.md): List live brokers of the given table based on EV
+- [Lists all TableConfigs in cluster](https://docs.startree.ai/api-reference/table/lists-all-tableconfigs-in-cluster.md): Lists all TableConfigs in cluster
+- [Lists all tables in cluster](https://docs.startree.ai/api-reference/table/lists-all-tables-in-cluster.md): Lists all tables in cluster
+- [Lists all tables in cluster](https://docs.startree.ai/api-reference/table/lists-all-tables-in-cluster-1.md): Lists all tables in cluster
+- [Lists the table configs](https://docs.startree.ai/api-reference/table/lists-the-table-configs.md)
+- [Pause consumption of a realtime table](https://docs.startree.ai/api-reference/table/pause-consumption-of-a-realtime-table.md): Pause the consumption of a realtime table
+- [preview](https://docs.startree.ai/api-reference/table/preview.md): Simulates a preview of the table given the table config and schema
+- [Read table sizes](https://docs.startree.ai/api-reference/table/read-table-sizes.md): Get table size details. Table size is the size of untarred segments including replication
+- [Rebalances a table (reassign instances and segments for a table)](https://docs.startree.ai/api-reference/table/rebalances-a-table-reassign-instances-and-segments-for-a-table.md): Rebalances a table (reassign instances and segments for a table)
+- [Rebuild broker resource for table](https://docs.startree.ai/api-reference/table/rebuild-broker-resource-for-table.md): when new brokers are added
+- [Recommend config](https://docs.startree.ai/api-reference/table/recommend-config.md): Recommend a config with input json
+- [Remove the instance partitions](https://docs.startree.ai/api-reference/table/remove-the-instance-partitions.md)
+- [Replace an instance in the instance partitions](https://docs.startree.ai/api-reference/table/replace-an-instance-in-the-instance-partitions.md)
+- [Resume consumption of a realtime table](https://docs.startree.ai/api-reference/table/resume-consumption-of-a-realtime-table.md): Resume the consumption for a realtime table. ConsumeFrom parameter indicates from which offsets consumption should resume. Recommended value is 'lastConsumed', which indicates consumption should continue based on the offsets in segment ZK metadata, and in case the offsets are already gone, the first…
+- [Return pause status of a realtime table](https://docs.startree.ai/api-reference/table/return-pause-status-of-a-realtime-table.md): Return pause status of a realtime table along with list of consuming segments.
+- [Returns state of consuming segments](https://docs.startree.ai/api-reference/table/returns-state-of-consuming-segments.md): Gets the status of consumers from all servers.Note that the partitionToOffsetMap has been deprecated and will be removed in the next release. The info is now embedded within each partition's state as currentOffsetsMap.
+- [Returns state of pauseless table](https://docs.startree.ai/api-reference/table/returns-state-of-pauseless-table.md): Gets the segments that are in error state and segments with COMMITTING status in ZK metadata
+- [Set hybrid table query time boundary based on offline segments' metadata](https://docs.startree.ai/api-reference/table/set-hybrid-table-query-time-boundary-based-on-offline-segments-metadata.md): Set hybrid table query time boundary based on offline segments' metadata
+- [table stats](https://docs.startree.ai/api-reference/table/table-stats.md): Provides metadata info/stats about the table.
+- [table status](https://docs.startree.ai/api-reference/table/table-status.md): Provides status of the table including ingestion status
+- [Update the TableConfigs provided by the tableConfigsStr json](https://docs.startree.ai/api-reference/table/update-the-tableconfigs-provided-by-the-tableconfigsstr-json.md): Update the TableConfigs provided by the tableConfigsStr json
+- [Updates table config for a table](https://docs.startree.ai/api-reference/table/updates-table-config-for-a-table.md): Updates table config for a table
+- [Validate table config for a table](https://docs.startree.ai/api-reference/table/validate-table-config-for-a-table.md): This API returns the table config that matches the one you get from 'GET /tables/{tableName}'. This allows us to validate table config before apply.
+- [Validate the TableConfigs](https://docs.startree.ai/api-reference/table/validate-the-tableconfigs.md): Validate the TableConfigs
+- [Clean up finished tasks (COMPLETED, FAILED) for the given task type](https://docs.startree.ai/api-reference/task/clean-up-finished-tasks-completed-failed-for-the-given-task-type.md)
+- [Count of all tasks for the given task type](https://docs.startree.ai/api-reference/task/count-of-all-tasks-for-the-given-task-type.md)
+- [Delete a single task given its task name](https://docs.startree.ai/api-reference/task/delete-a-single-task-given-its-task-name.md)
+- [Delete all tasks (as well as the task queue) for the given task type](https://docs.startree.ai/api-reference/task/delete-all-tasks-as-well-as-the-task-queue-for-the-given-task-type.md)
+- [Delete task metadata for the given task type and table](https://docs.startree.ai/api-reference/task/delete-task-metadata-for-the-given-task-type-and-table.md)
+- [Execute a task on minion](https://docs.startree.ai/api-reference/task/execute-a-task-on-minion.md)
+- [Fetch count of sub-tasks for each of the tasks for the given task type](https://docs.startree.ai/api-reference/task/fetch-count-of-sub-tasks-for-each-of-the-tasks-for-the-given-task-type.md)
+- [Fetch cron scheduler information](https://docs.startree.ai/api-reference/task/fetch-cron-scheduler-information.md)
+- [Fetch cron scheduler job keys](https://docs.startree.ai/api-reference/task/fetch-cron-scheduler-job-keys.md)
+- [Fetch information for all the tasks for the given task type](https://docs.startree.ai/api-reference/task/fetch-information-for-all-the-tasks-for-the-given-task-type.md)
+- [Fetch information for all the tasks for the given task type and table](https://docs.startree.ai/api-reference/task/fetch-information-for-all-the-tasks-for-the-given-task-type-and-table.md)
+- [Fetch information for the given task name](https://docs.startree.ai/api-reference/task/fetch-information-for-the-given-task-name.md)
+- [Fetch job details for table tasks](https://docs.startree.ai/api-reference/task/fetch-job-details-for-table-tasks.md)
+- [Fetch task generation information for the recent runs of the given task for the given table](https://docs.startree.ai/api-reference/task/fetch-task-generation-information-for-the-recent-runs-of-the-given-task-for-the-given-table.md)
+- [Get a map from task to task state for the given task type](https://docs.startree.ai/api-reference/task/get-a-map-from-task-to-task-state-for-the-given-task-type.md)
+- [Get progress of all subtasks with specified state tracked by minion worker in memory](https://docs.startree.ai/api-reference/task/get-progress-of-all-subtasks-with-specified-state-tracked-by-minion-worker-in-memory.md)
+- [Get progress of specified sub tasks for the given task tracked by minion worker in memory](https://docs.startree.ai/api-reference/task/get-progress-of-specified-sub-tasks-for-the-given-task-tracked-by-minion-worker-in-memory.md)
+- [Get task metadata for the given task type and table](https://docs.startree.ai/api-reference/task/get-task-metadata-for-the-given-task-type-and-table.md)
+- [Get the configs of specified sub tasks for the given task](https://docs.startree.ai/api-reference/task/get-the-configs-of-specified-sub-tasks-for-the-given-task.md)
+- [Get the state (task queue state) for the given task type](https://docs.startree.ai/api-reference/task/get-the-state-task-queue-state-for-the-given-task-type.md)
+- [Get the states of all the sub tasks for the given task](https://docs.startree.ai/api-reference/task/get-the-states-of-all-the-sub-tasks-for-the-given-task.md)
+- [Get the task config (a list of child task configs) for the given task](https://docs.startree.ai/api-reference/task/get-the-task-config-a-list-of-child-task-configs-for-the-given-task.md)
+- [Get the task runtime config for the given task](https://docs.startree.ai/api-reference/task/get-the-task-runtime-config-for-the-given-task.md)
+- [Get the task state for the given task](https://docs.startree.ai/api-reference/task/get-the-task-state-for-the-given-task.md)
+- [List all task types](https://docs.startree.ai/api-reference/task/list-all-task-types.md)
+- [List all tasks for the given task type](https://docs.startree.ai/api-reference/task/list-all-tasks-for-the-given-task-type.md)
+- [List all tasks for the given task type](https://docs.startree.ai/api-reference/task/list-all-tasks-for-the-given-task-type-1.md)
+- [Resume all stopped tasks (as well as the task queue) for the given task type](https://docs.startree.ai/api-reference/task/resume-all-stopped-tasks-as-well-as-the-task-queue-for-the-given-task-type.md)
+- [Schedule tasks and return a map from task type to task name scheduled. If task type is missing, schedules all tasks. If table name is missing, schedules tasks for all tables in the database. If database is missing in headers, uses default.](https://docs.startree.ai/api-reference/task/schedule-tasks-and-return-a-map-from-task-type-to-task-name-scheduled-if-task-type-is-missing-schedules-all-tasks-if-table-name-is-missing-schedules-tasks-for-all-tables-in-the-database-if-database-is-missing-in-headers-uses-default.md)
+- [Stop all running/pending tasks (as well as the task queue) for the given task type](https://docs.startree.ai/api-reference/task/stop-all-runningpending-tasks-as-well-as-the-task-queue-for-the-given-task-type.md)
+- [Change tenant state](https://docs.startree.ai/api-reference/tenant/change-tenant-state.md)
+- [ Create a tenant](https://docs.startree.ai/api-reference/tenant/create-a-tenant.md)
+- [Delete a tenant](https://docs.startree.ai/api-reference/tenant/delete-a-tenant.md)
+- [enable/disable a tenant](https://docs.startree.ai/api-reference/tenant/enabledisable-a-tenant.md)
+- [Get tenant information](https://docs.startree.ai/api-reference/tenant/get-tenant-information.md)
+- [Get the instance partitions of a tenant](https://docs.startree.ai/api-reference/tenant/get-the-instance-partitions-of-a-tenant.md)
+- [Gets detailed stats of a tenant rebalance operation](https://docs.startree.ai/api-reference/tenant/gets-detailed-stats-of-a-tenant-rebalance-operation.md): Gets detailed stats of a tenant rebalance operation
+- [List all tenants](https://docs.startree.ai/api-reference/tenant/list-all-tenants.md)
+- [List instance for a tenant](https://docs.startree.ai/api-reference/tenant/list-instance-for-a-tenant.md)
+- [List tables on a server or broker tenant](https://docs.startree.ai/api-reference/tenant/list-tables-on-a-server-or-broker-tenant.md)
+- [Rebalances all the tables that are part of the tenant](https://docs.startree.ai/api-reference/tenant/rebalances-all-the-tables-that-are-part-of-the-tenant.md)
+- [Update a tenant](https://docs.startree.ai/api-reference/tenant/update-a-tenant.md)
+- [Update an instance partition for a server type in a tenant](https://docs.startree.ai/api-reference/tenant/update-an-instance-partition-for-a-server-type-in-a-tenant.md)
+- [Apply specific tuner to a table](https://docs.startree.ai/api-reference/tuner/apply-specific-tuner-to-a-table.md)
+- [Apply tuner(s) to a table](https://docs.startree.ai/api-reference/tuner/apply-tuners-to-a-table.md)
+- [Estimate memory usage for an upsert table](https://docs.startree.ai/api-reference/upsert/estimate-memory-usage-for-an-upsert-table.md): This API returns the estimated heap usage based on primary key column stats. This allows us to estimate table size before onboarding.
+- [Add metadata location of a new upsert snapshot](https://docs.startree.ai/api-reference/upsertsnapshot/add-metadata-location-of-a-new-upsert-snapshot.md)
+- [Add metadata of a new upsert snapshot](https://docs.startree.ai/api-reference/upsertsnapshot/add-metadata-of-a-new-upsert-snapshot.md)
+- [Delete upsert snapshot and its metadata](https://docs.startree.ai/api-reference/upsertsnapshot/delete-upsert-snapshot-and-its-metadata.md)
+- [Delete upsert snapshot metadata](https://docs.startree.ai/api-reference/upsertsnapshot/delete-upsert-snapshot-metadata.md)
+- [Get all upsert snapshot names for the table](https://docs.startree.ai/api-reference/upsertsnapshot/get-all-upsert-snapshot-names-for-the-table.md)
+- [Get latest upsert snapshot names for all partitions](https://docs.startree.ai/api-reference/upsertsnapshot/get-latest-upsert-snapshot-names-for-all-partitions.md)
+- [Get upsert snapshot metadata by the snapshot name](https://docs.startree.ai/api-reference/upsertsnapshot/get-upsert-snapshot-metadata-by-the-snapshot-name.md)
+- [Add a user](https://docs.startree.ai/api-reference/user/add-a-user.md): Add a user
+- [Delete a user](https://docs.startree.ai/api-reference/user/delete-a-user.md): Delete a user
+- [Get an user in cluster](https://docs.startree.ai/api-reference/user/get-an-user-in-cluster.md): Get an user in cluster
+- [List all uses in cluster](https://docs.startree.ai/api-reference/user/list-all-uses-in-cluster.md): List all users in cluster
+- [Update user config for a user](https://docs.startree.ai/api-reference/user/update-user-config-for-a-user.md): Update user config for user
+- [Get version number of Pinot components](https://docs.startree.ai/api-reference/version/get-version-number-of-pinot-components.md)
+- [Create a node at a given path](https://docs.startree.ai/api-reference/zookeeper/create-a-node-at-a-given-path.md)
+- [Delete the znode at this path](https://docs.startree.ai/api-reference/zookeeper/delete-the-znode-at-this-path.md)
+- [Get all child znodes](https://docs.startree.ai/api-reference/zookeeper/get-all-child-znodes.md)
+- [Get content of the znode](https://docs.startree.ai/api-reference/zookeeper/get-content-of-the-znode.md)
+- [Get the stat](https://docs.startree.ai/api-reference/zookeeper/get-the-stat.md): Use this api to fetch additional details of a znode such as creation time, modified time, numChildren etc
+- [List the child znodes](https://docs.startree.ai/api-reference/zookeeper/list-the-child-znodes.md)
+- [List the child znodes along with Stats](https://docs.startree.ai/api-reference/zookeeper/list-the-child-znodes-along-with-stats.md)
+- [Update the content of multiple znRecord node under the same path](https://docs.startree.ai/api-reference/zookeeper/update-the-content-of-multiple-znrecord-node-under-the-same-path.md)
+- [Update the content of the node](https://docs.startree.ai/api-reference/zookeeper/update-the-content-of-the-node.md)
+- [Overview](https://docs.startree.ai/concepts/about-startree-cloud.md): StarTree Cloud delivers real-time analytics at scale and is supported on all major cloud platforms.
+- [What is Real-Time Analytics?](https://docs.startree.ai/concepts/what-is-real-time-analytics.md): Real-time analytics enable users to make better and more timely decisions. Real-time analytics products pull data in as soon as it happens, pull data out as soon as it gets pulled in, and do so at scale.
+- [Claude Desktop](https://docs.startree.ai/corecapabilities/ai/mcp/claude.md)
+- [Cursor IDE](https://docs.startree.ai/corecapabilities/ai/mcp/cursor.md)
+- [Installation](https://docs.startree.ai/corecapabilities/ai/mcp/installation.md)
+- [Librechat](https://docs.startree.ai/corecapabilities/ai/mcp/librechat.md)
+- [Overview](https://docs.startree.ai/corecapabilities/ai/mcp/overview.md)
+- [Overview](https://docs.startree.ai/corecapabilities/ai/overview.md)
+- [Query Analyzer API Reference](https://docs.startree.ai/corecapabilities/ai/query-analyzer/api-reference.md): REST API reference for the Query Analyzer static and runtime analysis endpoints.
+- [Query Analyzer](https://docs.startree.ai/corecapabilities/ai/query-analyzer/overview.md)
+- [Understanding Recommendations](https://docs.startree.ai/corecapabilities/ai/query-analyzer/reading-results.md)
+- [Security and Compliance](https://docs.startree.ai/corecapabilities/ai/query-analyzer/security-and-compliance.md): Security controls, data privacy, and compliance posture for Query Analyzer in StarTree Cloud.
+- [How to Use Query Analyzer](https://docs.startree.ai/corecapabilities/ai/query-analyzer/usage.md)
+- [Scheduled Server Scaling](https://docs.startree.ai/corecapabilities/cluster-operations/scheduled-server-scaling.md)
+- [StarTree Cloud Cluster Health Dashboard](https://docs.startree.ai/corecapabilities/cluster-operations/use-cluster-health-dashboard.md)
+- [Best Practices and Configs](https://docs.startree.ai/corecapabilities/external-table/best-practices-and-configs.md): The full config reference for External Tables — sync task, tier caching, server/cluster tuning, and per-query options — plus onboarding and performance best practices.
+- [Data and Index caching](https://docs.startree.ai/corecapabilities/external-table/data-and-index-caching.md): How the Parquet data cache, index cache, and footer cache work for External Tables and tiered-storage tables — sizing, eviction, and restart behavior.
+- [Data Export Task: Parquet Writer](https://docs.startree.ai/corecapabilities/external-table/data-export-task.md): Export completed Pinot REALTIME segments back to Parquet on a filesystem or an Iceberg REST catalog with the DataExportTask minion task.
+- [Data Type Mapping](https://docs.startree.ai/corecapabilities/external-table/data-type-mapping.md): How Parquet and Iceberg source types map to Pinot types in an External Table, including time-column detection, granularity, and known limitations.
+- [FAQ](https://docs.startree.ai/corecapabilities/external-table/faq.md): Answers to common questions about StarTree External Tables — supported sources, onboarding, schema, indexes, performance, and operations.
+- [GCS Data Lake: Onboarding via API](https://docs.startree.ai/corecapabilities/external-table/gcs/onboarding-api.md): Onboard raw Parquet files on Google Cloud Storage as a StarTree External Table via the REST API, using GCS's S3-compatible interop endpoint and HMAC keys.
+- [Getting Started: Connect a Data Catalog](https://docs.startree.ai/corecapabilities/external-table/getting-started/connect-a-catalog.md): Connect StarTree to an Iceberg-compatible data catalog — AWS Glue, Amazon S3 Tables, Unity Catalog, or Nessie — and onboard a registered table as an External Table.
+- [Getting Started: Query Parquet Without a Catalog](https://docs.startree.ai/corecapabilities/external-table/getting-started/query-without-a-catalog.md): Query raw Parquet files on S3 or GCS as a StarTree External Table with no Iceberg table, Glue database, or catalog service in front of them.
+- [Getting Started: Speed Up External Table Queries](https://docs.startree.ai/corecapabilities/external-table/getting-started/speed-up-queries.md): Make StarTree External Table queries fast with the right indexes, caching and preload settings, and protection against out-of-memory scans.
+- [AWS Glue: Onboarding via API](https://docs.startree.ai/corecapabilities/external-table/glue/onboarding-api.md): Onboard an AWS Glue Iceberg table as a StarTree External Table over the REST catalog protocol, with IAM-role, node-role, or static-key auth.
+- [AWS Glue: Onboarding via Data Portal](https://docs.startree.ai/corecapabilities/external-table/glue/onboarding-data-portal.md): Connect an AWS Glue Iceberg catalog to StarTree as an External Table with the point-and-click Data Portal wizard — no API calls required.
+- [Supported Indexes](https://docs.startree.ai/corecapabilities/external-table/indexes.md): Which Pinot indexes External Tables support — inverted, range, JSON, text, bloom, star-tree, and more — with config examples and why columns are RAW.
+- [Observability](https://docs.startree.ai/corecapabilities/external-table/observability.md): REST endpoints to check an External Table sync run's status and ingestion lag against the upstream table, or trigger a run on demand.
+- [Advanced Sizing & Operational Guidance](https://docs.startree.ai/corecapabilities/external-table/operational-guidance.md): Capacity guardrails, deployment recommendations, and additional troubleshooting fixes for External Tables, beyond the core Best Practices and Troubleshooting references.
+- [External Tables Overview](https://docs.startree.ai/corecapabilities/external-table/overview.md): Query Iceberg (AWS Glue, S3 Tables, Unity Catalog, Nessie) and raw Parquet (S3, GCS) tables directly from Pinot, with no ingestion or data duplication.
+- [S3: Onboarding via API](https://docs.startree.ai/corecapabilities/external-table/s3/onboarding-api.md): Onboard raw Parquet files under an S3 prefix as a StarTree External Table via the REST API — no Iceberg or catalog service required.
+- [S3: Onboarding via Data Portal](https://docs.startree.ai/corecapabilities/external-table/s3/onboarding-data-portal.md): Connect raw Parquet files on S3 to StarTree as an External Table with the point-and-click Data Portal wizard — no catalog service required.
+- [Amazon S3 Tables: Onboarding via API](https://docs.startree.ai/corecapabilities/external-table/s3tables/onboarding-api.md): Onboard an Amazon S3 Tables bucket as a StarTree External Table over the REST catalog protocol, with IAM-role, node-role, or static-key auth.
+- [Amazon S3 Tables: Onboarding via Data Portal](https://docs.startree.ai/corecapabilities/external-table/s3tables/onboarding-data-portal.md): Connect an Amazon S3 Tables bucket to StarTree as an External Table with the point-and-click Data Portal wizard — no API calls required.
+- [Support Matrix](https://docs.startree.ai/corecapabilities/external-table/support-matrix.md): What StarTree External Tables support: catalogs and sources, table and file formats, authentication methods for every connector, features, indexes, and limits.
+- [Troubleshooting](https://docs.startree.ai/corecapabilities/external-table/troubleshooting.md): Symptom-based fixes for common External Table onboarding, schema, query, and sync errors, indexed by the exact error string to search for.
+- [Unity Catalog: Onboarding via API](https://docs.startree.ai/corecapabilities/external-table/unity/onboarding-api.md): Onboard a Databricks or OSS Unity Catalog table — including Delta Lake tables with UniForm — as a StarTree External Table, with PAT, OAuth2, or vended-credential auth.
+- [Unity Catalog: Onboarding via Data Portal](https://docs.startree.ai/corecapabilities/external-table/unity/onboarding-data-portal.md): Connect a Databricks or OSS Unity Catalog — including Delta Lake tables with UniForm — to StarTree as an External Table with the point-and-click Data Portal wizard, no API calls required.
+- [Atomic Ingestion](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/atomic-sync-consistent-push.md)
+- [Delta Lake Ingestion](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/delta-lake-connector.md)
+- [File Ingestion](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/file-ingestion-task.md)
+- [Minion Task Orchestration](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/minion-task-orchestration.md): Automatically chain multi-batch Minion tasks to completion using task plans, without manual re-triggers or a fixed schedule.
+- [Offline Upserts](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/offline-upserts.md)
+- [Batch Ingestion in Apache Pinot with Minions](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/overview.md)
+- [SQL Ingestion](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/batch/sql-connector.md)
+- [AZ Aware Kafka ingestion in Pinot](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/az-aware-kafka.md): Guide for setting up AZ aware Kafka ingestion
+- [Avro Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/avro.md)
+- [Debezium Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/debezium.md)
+- [Amazon DynamoDB Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/dynamodb.md)
+- [AWS Glue Schema Registry Avro Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/glue.md)
+- [JSON Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/json.md)
+- [Message Decoders](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/overview.md)
+- [Prometheus Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/prometheus.md)
+- [Protobuf Message Decoder](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/decoders/protobuf.md)
+- [Streaming Ingestion in Apache Pinot](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/overview.md)
+- [Pauseless Consumption](https://docs.startree.ai/corecapabilities/ingestdata/adv-concepts/realtime/pauseless-consumption.md)
+- [Additional Configuration](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/additional-config-create-table.md): Configure advanced settings for the table in the Data Portal, including ingestion behavior and time partitioning for Apache Pinot tables. These are crucial for correct table functioning and data integrity in Apache Pinot.
+- [Connect to Azure Data Lake Storage (ADLS)](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/adls.md): Create a connection to ingest files from Azure Data Lake Storage.
+- [Connect to Google BigQuery](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/bigquery.md): Create a connection to load data from Google BigQuery tables and views.
+- [Connect to Delta Lake](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/deltalake.md)
+- [Connect to Google Cloud Storage (GCS)](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/gcs.md): Create a connection to ingest files from Google Cloud Storage.
+- [Connect to Amazon S3](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/s3.md): Create a connection to ingest files stored in Amazon S3 buckets.
+- [Connect to Snowflake](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/snowflake.md): Create a connection to load batch data from Snowflake into StarTree Cloud.
+- [Upload any file](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/batch/upload.md)
+- [Connect to Any Data Source](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/custom-connection.md): Connect to any data source using the custom connector. Configure the connector to use a batch or streaming source.
+- [Examples](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/data-modeling/concepts.md): Derive new columns or modify existing columns during ingestion by applying expressions, functions, or logic.
+- [Map type](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/data-modeling/maptype.md)
+- [Overview](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/data-modeling/overview.md): Data modeling helps you organize and structure the data fetched from the data source into Pinot tables. Use the Data Portal to customize your columns, transform your data, and add or remove columns.
+- [Dealing with TimeZones](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/data-modeling/timezones.md): In this guide we'll learn how to import fields that have DateTime strings that contain timezones using StarTree Data Manager.
+- [JSON Unnesting](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/data-modeling/unnesting-json.md): JSON unnesting makes it easy to work with deeply nested and semi-structured data. Extract nested fields from JSON objects and arrays into flat, queryable formats during ingestion.
+- [Connect to Aiven Kafka](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/aiven.md): Create a connection to ingest data from the managed Kafka service by Aiven.
+- [Connect to MSK - Managed Apache Kafka by AWS](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/aws_msk.md)
+- [Connect to Confluent Cloud](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/confluent.md): Create a connection to ingest from fully managed Kafka in Confluent Cloud.
+- [Connect to Apache Kafka](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/kafka.md): Create a connection to stream real-time events using Apache Kafka.
+- [Connect to Amazon Kinesis](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/kinesis.md): Create a connection to ingest real-time data from Amazon Kinesis.
+- [Connect to Redpanda](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/redpanda.md): Create a connection for high-performance streaming ingestion with Redpanda.
+- [Connect to StreamNative Kafka](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/streamnative.md): Create a connection to ingest from fully managed Kafka in StreamNative.
+- [Connect to WarpStream](https://docs.startree.ai/corecapabilities/ingestdata/dataportal/streaming/warpstream.md): Create a connection to stream data using WarpStream's Kafka-compatible API.
+- [Ingest Data](https://docs.startree.ai/corecapabilities/ingestdata/ingest_data_overview.md): Ingest data from various streaming and batch sources using connectors. The StarTree Data Portal makes it easy to ingest and transform data.
+- [IAM-Role Based Access for Kinesis](https://docs.startree.ai/corecapabilities/ingestdata/recipes/iam-role-kinesis.md)
+- [IAM-Role Based Access for S3](https://docs.startree.ai/corecapabilities/ingestdata/recipes/iam-role-s3.md)
+- [Alter Table Task](https://docs.startree.ai/corecapabilities/manage-data/alter-table-task.md)
+- [Deep Store Segment Sync](https://docs.startree.ai/corecapabilities/manage-data/deep-store-sync.md)
+- [Hybrid Tables](https://docs.startree.ai/corecapabilities/manage-data/hybrid-tables.md)
+- [Bloom Filter Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/bloom-filter.md): The Bloom Filter index enables fast filtering of high-cardinality columns by reducing unnecessary data scans.
+- [Composite JSON Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/composite-json-index.md): Use the Composite JSON index to accelerate complex JSON queries by enabling efficient filtering and retrieval of nested fields.
+- [Dictionary Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/dictionary-index.md): The Dictionary index enhances storage efficiency and query performance by encoding repetitive column values into compact dictionary IDs, making it ideal for columns with moderate cardinality and supporting other indexes like inverted and FST indexes.
+- [Forward Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/forward-index.md): The Forward index maps document IDs to column values, enabling efficient data retrieval for queries involving selection, aggregation, and sorting. There are three implementations: dictionary-encoded, sorted, and raw value, optimized for different data characteristics.
+- [FST Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/fst-index.md): The FST (Finite State Transducer) index accelerates regex and prefix text queries by compactly encoding dictionary-encoded columns.
+- [GeoSpatial Index Configuration](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-configuration.md): H3 resolution selection, schema setup, and index optimization for maximum spatial query performance.
+- [GeoSpatial Data Types & Formats](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-data-types.md): Geometry vs geography types, format conversions, and choosing the right spatial data representation.
+- [GeoSpatial Examples & Use Cases](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-examples.md): Industry-specific implementations from retail to IoT, with complete schemas, configurations, and optimized queries.
+- [GeoSpatial Functions Reference](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-functions.md): SQL/MM compliant spatial functions for creating, measuring, and analyzing geographic data with practical examples.
+- [GeoSpatial Overview](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-index.md): H3 hexagonal indexing, multiple data formats, and spatial functions for real-time location analytics.
+- [GeoSpatial Performance & Optimization](https://docs.startree.ai/corecapabilities/manage-data/indexes/geospatial-performance.md): Query plan analysis, H3 index tuning, and optimization techniques for high-performance spatial queries.
+- [Inverted Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/inverted-index.md): The Inverted index maps column values to row locations through bitmap or sorted structures, enabling rapid equality, range, and membership filtering.
+- [JSON Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/json-index.md): The JSON index flattens and indexes JSON structures to allow fast, path-based filtering without the need for full document parsing.
+- [Overview](https://docs.startree.ai/corecapabilities/manage-data/indexes/overview.md): Boost query performance using indexing strategies, including inverted, range, sorted, and star-tree indexes for efficient data management.
+- [Range Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/range-index.md): Use the Range index to optimize range-based queries. The index enhances performance for inequality filters and BETWEEN operations on high-cardinality numeric or timestamp columns by mapping value ranges to corresponding rows.
+- [Sparse Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/sparse-index.md): The Sparse index improves equality-based query performance on high-cardinality columns. It is a hybrid between inverted indexes and Bloom filters, particularly beneficial for tiered storage environments.
+- [Star-tree Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/startree-index.md): The Star-tree index boosts aggregation and group-by query performance. It pre-aggregates data across multiple dimensions to reduce query latency and storage usage.
+- [Text Index (Lucene)](https://docs.startree.ai/corecapabilities/manage-data/indexes/text-index.md): The Text index (Lucene) enhances complex text search capabilities by enabling efficient phrase matching, regex, and prefix searches on large text fields.
+- [Timestamp Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/timestamp-index.md): The Timestamp index accelerates time-based queries by pre-computing and indexing multiple time granularities to optimize filtering and grouping operations.
+- [Vector Index](https://docs.startree.ai/corecapabilities/manage-data/indexes/vector-index.md): The Vector index enables efficient vector similarity searches, supporting high-dimensional data queries for applications like recommendation systems and anomaly detection.
+- [Off-Heap Deduplication](https://docs.startree.ai/corecapabilities/manage-data/offheap-dedup.md): Learn about off-heap dedup and how to use them in StarTree
+- [Off-Heap Upserts](https://docs.startree.ai/corecapabilities/manage-data/offheap-upsert.md): Learn about off-heap upserts and how to use them in StarTree
+- [Segment Purge Task](https://docs.startree.ai/corecapabilities/manage-data/purge-task.md): Selectively remove records from StarTree Pinot analytics tables using powerful Segment Purge Task strategies and Dry Run mode.
+- [Managing Adhoc Minion Tasks Programmatically](https://docs.startree.ai/corecapabilities/manage-data/recipes/adhoc-task-trigger.md): Learn how to programmatically trigger and manage Pinot Minion tasks using Schedule and Execute APIs.
+- [Segment Count Limits](https://docs.startree.ai/corecapabilities/manage-data/recipes/segment-count-limits.md): Per-table and cluster-wide segment count guardrails that gate ingestion and task generation before segment sprawl degrades the cluster.
+- [Table Storage Usage](https://docs.startree.ai/corecapabilities/manage-data/recipes/table-storage-usage.md): Understand a table's storage in the StarTree Data Portal — Local, Deep, and Tiered Storage, what Used and Orphaned mean, and the underlying API.
+- [Schema Evolution](https://docs.startree.ai/corecapabilities/manage-data/schema-evolution.md)
+- [Segment Backfill Task](https://docs.startree.ai/corecapabilities/manage-data/segment-backfill-task.md)
+- [Segment Import Task](https://docs.startree.ai/corecapabilities/manage-data/segment-import-task.md)
+- [Segment Operation Throttling](https://docs.startree.ai/corecapabilities/manage-data/segment-operation-throttling.md): Control how much work a server spends on segment downloads, index builds, and upsert/dedup operations so that heavy operations on one table don't degrade query latency or starve other tables.
+- [Segment Refresh Task](https://docs.startree.ai/corecapabilities/manage-data/segment-refresh-task.md)
+- [Tiered storage for Apache Pinot in StarTree Cloud](https://docs.startree.ai/corecapabilities/manage-data/set-up-tiered-storage/architecture.md): Learn how tiered storage is built for Apache Pinot, effectively decoupling the storage from the compute in your Pinot cluster.
+- [Motivation](https://docs.startree.ai/corecapabilities/manage-data/set-up-tiered-storage/motivation.md): Learn about the motivation behind the tiered storage project
+- [Set up Tiered Storage with Cloud Object Store](https://docs.startree.ai/corecapabilities/manage-data/set-up-tiered-storage/setup.md): Learn how to set up tiered storage with cloud object store, effectively decoupling storage from compute in your Pinot cluster.
+- [Use Sparse Index](https://docs.startree.ai/corecapabilities/manage-data/set-up-tiered-storage/use-sparse-index.md)
+- [Text Index support for Tiered Storage](https://docs.startree.ai/corecapabilities/manage-data/set-up-tiered-storage/use-text-index.md)
+- [Compaction after Upserts](https://docs.startree.ai/corecapabilities/manage-data/upsert-compaction-srt.md)
+- [Table Health Dashboard & Alerting](https://docs.startree.ai/corecapabilities/observability/table-health-and-alerting.md): Monitor per-table health checks in real time from the Data Portal, drill into failures, remediate them, and configure email alerts for check failures and recoveries.
+- [Task Observability](https://docs.startree.ai/corecapabilities/observability/task-observability.md): Watch background minion tasks — ingestion, purge, refresh, snapshotting, and more — run to completion for a table or across your whole workspace, directly from the Data Portal.
+- [Index-Based DISTINCT in Apache Pinot](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/fast-distinct-with-inverted-index.md)
+- [Broker-as-Worker for MSE Intermediate Stages ](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/intermediate-stage-on-broker.md)
+- [Pagination](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/pagination.md): Pagination support in StarTree Cloud allows clients to consume query results in smaller chunks instead of fetching the entire result set in a single response.
+- [Query Logger](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/query-logger.md)
+- [Query Quotas in Apache Pinot](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/query-quotas.md)
+- [Replica Group based Workload Isolation](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/replica-group-based-workload-isolation.md)
+- [Binary scheduler for workload isolation](https://docs.startree.ai/corecapabilities/query_data/advanced_operations/workload-isolation/binary-scheduler.md)
+- [JSON Extract Index ](https://docs.startree.ai/corecapabilities/query_data/functions/json_extract_index.md)
+- [Lookup UDF Join](https://docs.startree.ai/corecapabilities/query_data/functions/lookup-udf-join.md)
+- [StarTree MCP server](https://docs.startree.ai/corecapabilities/query_data/mcp/startree-mcp.md)
+- [Query Analyzer](https://docs.startree.ai/corecapabilities/query_data/query-analyzer.md)
+- [Connecting to StarTree Cloud via Java](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/connect-via-java.md)
+- [Connecting to StarTree Cloud via Node.js](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/connect-via-nodejs.md)
+- [Connecting to StarTree Cloud using Python](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/connect-via-python.md)
+- [Using the Pinot Proxy](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/pinot-proxy.md): Use the Pinot Proxy to route queries to the right broker tenant and access advanced query, cursor, routing, and debug APIs.
+- [Querying Pinot using the REST API](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/query-using-rest-API.md)
+- [Query Console](https://docs.startree.ai/corecapabilities/query_data/query_interfaces/query_console.md)
+- [Multi-Stage Query Engine](https://docs.startree.ai/corecapabilities/query_data/query_languages/msqe.md)
+- [PromQL](https://docs.startree.ai/corecapabilities/query_data/query_languages/promql.md): Query metrics data using the Prometheus Query Language (PromQL).
+- [SQL](https://docs.startree.ai/corecapabilities/query_data/query_languages/sql.md)
+- [StarTree Engine](https://docs.startree.ai/corecapabilities/query_data/query_languages/startree-engine.md)
+- [Actions](https://docs.startree.ai/corecapabilities/security/actions.md): There are several commonly used actions that can be specified in a policy.
+- [Pinot Audit Configuration Guide](https://docs.startree.ai/corecapabilities/security/audit/pinot-audit-logs.md)
+- [Custom Policy Configuration](https://docs.startree.ai/corecapabilities/security/custom-policies.md): Define and implement custom RBAC policies in StarTree Cloud by configuring granular permissions using StarTree Resource Names (SRNs), supporting over 150 distinct actions for precise access control across environments, clusters, and tables.
+- [Microsoft Entra ID](https://docs.startree.ai/corecapabilities/security/idp/azure.md): Configure Microsoft Entra ID as your Identity Provider (IdP) with StarTree. Microsoft Entra ID enables centralized authentication, enhanced security, and streamlined user management, simplifying access to StarTree.
+- [Google](https://docs.startree.ai/corecapabilities/security/idp/google.md): Configure Google as your Identity Provider (IdP) with StarTree. Leverage your existing Google Workspace or Cloud Identity for centralized authentication, enhanced security, and streamlined user management for StarTree.
+- [Okta](https://docs.startree.ai/corecapabilities/security/idp/okta.md): Configure Okta as your Identity Provider (IdP) with StarTree. Integrating Okta enables centralized authentication, enhanced security, and streamlined user management, simplifying access to StarTree.
+- [Managing Access](https://docs.startree.ai/corecapabilities/security/manage-access.md): Manage secure, fine-grained access to StarTree resources with Role-Based Access Control (RBAC), enabling administrators to define custom policies, create roles, and assign them to users or groups through the Security Manager interface integrated with your organization's Identity Provider (IDP).
+- [API Token Management](https://docs.startree.ai/corecapabilities/security/manage-api-tokens.md)
+- [Security Manager](https://docs.startree.ai/corecapabilities/security/manage-security.md): The StarTree Security Manager provides a centralized location for managing access control within your StarTree environment.
+- [Row-Level Access Control](https://docs.startree.ai/corecapabilities/security/row-level-access-control.md): Restrict access to specific rows within tables using conditional policies, enabling secure data sharing while maintaining data isolation for different users and groups.
+- [Using the StarTree Role-Based Access Control (RBAC) API](https://docs.startree.ai/corecapabilities/security/using-rbac-api.md): Configure using the RBAC Manager API. RBAC allows you to define granular permissions for users, groups, and service tokens.
+- [Connect Superset to StarTree Cloud](https://docs.startree.ai/corecapabilities/visualize_data/connect-superset-to-startree-cloud.md): Connect Superset to StarTree Cloud to visualize your data.
+- [Connect Tableau to StarTree Cloud](https://docs.startree.ai/corecapabilities/visualize_data/connect-tableau-to-startree-cloud.md): Connect either Tableau Desktop or Tableau Server to your StarTree Cloud instance.
+- [Architecture](https://docs.startree.ai/getstarted/deployment/components_deployed.md): The StarTree Cloud architecture integrates a managed Apache Pinot cluster with advanced ingestion, storage, and query capabilities. It supports diverse data sources, offers tiered storage for cost-effective performance, and utilizes Kubernetes-based orchestration for scalable, cloud-native deploymen…
+- [Deployment Options](https://docs.startree.ai/getstarted/deployment/deployment_models.md): StarTree Cloud provides a fully managed experience for deploying and managing real-time analytics. Leverage the Shared SaaS option for fast setup, or use your own cloud for more control.
+- [Security and Compliance](https://docs.startree.ai/getstarted/deployment/security_certifications.md): StarTree Cloud ships with enterprise grade security and has industry-leading certifications such as SOC2 and HIPAA.
+- [Products](https://docs.startree.ai/getstarted/products.md): StarTree Cloud offers applications and utilities that increase usability and reduce the time to value for users.
+- [](https://docs.startree.ai/index.md)
+- [Backfill offline segment](https://docs.startree.ai/recipes/backfill.md): In this Apache Pinot recipe we'll learn how to backfill a segment moved from a real-time to offline table using the real-time to offline job.
+- [Chaining Transformation Functions](https://docs.startree.ai/recipes/chaining-transformation-functions.md)
+- [How to Combine Source Fields into one Column](https://docs.startree.ai/recipes/combine-fields.md)
+- [Configuring the Segment Threshold](https://docs.startree.ai/recipes/configuring-segment-threshold.md): In this guide we'll learn how to configure the segment threshold for flushing data in Apache Pinot real-time tables.
+- [Importing CSV files with columns containing spaces](https://docs.startree.ai/recipes/csv-files-spaces-column-names.md)
+- [Converting DateTime Strings to Timestamps](https://docs.startree.ai/recipes/datetime-string-to-timestamp.md)
+- [Ingest CDC Data using PostgreSQL, Kafka, and Debezium](https://docs.startree.ai/recipes/debezium-cdc.md)
+- [Replicating DynamoDB to Apache Pinot](https://docs.startree.ai/recipes/dynamodb-pinot-cdc.md)
+- [Extract Parts of Date](https://docs.startree.ai/recipes/extract-parts-of-date.md)
+- [Filtering records during ingestion](https://docs.startree.ai/recipes/filtering-ingestion.md)
+- [How to fix host names](https://docs.startree.ai/recipes/fixed-hostname.md)
+- [How to Force Commit Consuming Segments](https://docs.startree.ai/recipes/force-commit.md)
+- [Real-Time RAG Pinot](https://docs.startree.ai/recipes/genai.md)
+- [Storing Geospatial Objects](https://docs.startree.ai/recipes/geospatial.md)
+- [Default Value for Geospatial Columns](https://docs.startree.ai/recipes/geospatial-default-value.md)
+- [Indexing Geospatial Points](https://docs.startree.ai/recipes/geospatial-indexing.md)
+- [Ingest GitHub API Events using Kinesis](https://docs.startree.ai/recipes/github-events-stream-kinesis.md)
+- [How to use Google Cloud Storage as a Deep Store](https://docs.startree.ai/recipes/google-cloud-storage-deep-store.md)
+- [Groovy Transformation Functions](https://docs.startree.ai/recipes/groovy-transformation-functions.md)
+- [How to Handle Null Values](https://docs.startree.ai/recipes/handle-null-values.md)
+- [Import data files from different directories](https://docs.startree.ai/recipes/import-data-files-different-directories.md)
+- [Infer Pinot Schema from Avro Schema](https://docs.startree.ai/recipes/infer-schema-avro.md)
+- [Infer Pinot Schema from JSON Data](https://docs.startree.ai/recipes/infer-schema-json-data.md)
+- [Ingesting Avro Messages](https://docs.startree.ai/recipes/ingest-avro.md)
+- [Ingest CSV files from a S3 bucket](https://docs.startree.ai/recipes/ingest-csv-files-from-s3.md): In this recipe, we will learn how Apache Pinot can be configured to ingest CSV files from an AWS S3 bucket.
+- [Ingesting JSON files](https://docs.startree.ai/recipes/ingest-json-files.md)
+- [Ingesting JSON files from Kafka](https://docs.startree.ai/recipes/ingest-json-files-kafka.md): In this recipe, we'll learn how to ingest JSON documents from Apache Kafka into Apache Pinot.
+- [Ingest Parquet files from an S3 Bucket into Pinot Using Spark](https://docs.startree.ai/recipes/ingest-parquet-files-from-s3-using-spark.md)
+- [How to flatten objects in JSON documents](https://docs.startree.ai/recipes/json-flatten.md)
+- [How to index a JSON column](https://docs.startree.ai/recipes/json-index.md)
+- [JSON Transformation Functions](https://docs.startree.ai/recipes/json-transformation-functions.md)
+- [How to unnest arrays in JSON documents](https://docs.startree.ai/recipes/json-unnest.md)
+- [How to rename fields when unnesting arrays or flattening objects in JSON documents](https://docs.startree.ai/recipes/json-unnest-rename-fields.md)
+- [How to update a JSON index](https://docs.startree.ai/recipes/json-update-index.md)
+- [Connecting to Kafka with SASL Authentication](https://docs.startree.ai/recipes/kafka-sasl.md): In this guide we'll learn how to configure Apache Pinot to work with Kafka using SASL authentication.
+- [Connecting to Kafka with SSL and SASL Authentication](https://docs.startree.ai/recipes/kafka-ssl-sasl.md)
+- [Lookup-Based Join Support](https://docs.startree.ai/recipes/lookup-joins.md)
+- [Managed Offline Flow](https://docs.startree.ai/recipes/managed-offline-flow.md)
+- [Merge Real-Time Segments in Real-Time Tables](https://docs.startree.ai/recipes/merge-segments-realtime.md)
+- [Merge Small Segments in Offline Tables](https://docs.startree.ai/recipes/merge-small-segments.md)
+- [Using MinIO as Deep Store for an Offline Table](https://docs.startree.ai/recipes/minio-deep-store.md)
+- [How to pause and resume ingestion of a stream](https://docs.startree.ai/recipes/pause-resume-consumption.md)
+- [Ingest from Apache Pulsar](https://docs.startree.ai/recipes/pulsar.md): In this Apache Pinot Recipe, we'll learn how to ingest data from Apache Pulsar.
+- [How to Query a Table by Segment](https://docs.startree.ai/recipes/query-by-segment.md)
+- [Clickstream Analytics Dashboard with StarTree Cloud Free Tier and Streamlit](https://docs.startree.ai/recipes/real-time-clickstream-dashboard-guide.md)
+- [How to manually schedule real-time to offline job](https://docs.startree.ai/recipes/real-time-offline-job.md)
+- [Automatically schedule real-time to offline job](https://docs.startree.ai/recipes/real-time-offline-job-automatic-scheduling.md)
+- [Download Recipes](https://docs.startree.ai/recipes/recipes.md)
+- [How to Remove a Server](https://docs.startree.ai/recipes/removing-server.md)
+- [How to Check Segment to Server Assignment](https://docs.startree.ai/recipes/segment-assignment.md)
+- [Using a Star-Tree Index](https://docs.startree.ai/recipes/startree-index.md)
+- [How to Get the Time Boundary for a Hybrid Table](https://docs.startree.ai/recipes/time-boundary-hybrid-table.md)
+- [Full Upserts in Pinot](https://docs.startree.ai/recipes/upserts-full.md)
+- [Partial Upserts in Pinot](https://docs.startree.ai/recipes/upserts-partial.md)
+- [Upserts and the real-time to offline job](https://docs.startree.ai/recipes/upserts-real-time-offline-job.md)
+- [Benefits of StarTree V2 Cloud Architecture](https://docs.startree.ai/reference/cloud-v2-benefits.md)
+- [Glossary](https://docs.startree.ai/reference/glossary.md): Definitions for real-time user-facing analytics, StarTree products, and platforms
+- [Release Version 0.10.0: November 2024](https://docs.startree.ai/reference/startree-release-notes/0.10.0.md)
+- [Release Version 0.10.1: February 2025](https://docs.startree.ai/reference/startree-release-notes/0.10.1.md)
+- [Release Version 0.11.0: July 2025](https://docs.startree.ai/reference/startree-release-notes/0.11.0.md)
+- [Release version 0.11.1: September 2025](https://docs.startree.ai/reference/startree-release-notes/0.11.1.md)
+- [Release version 0.12.0: February 2026](https://docs.startree.ai/reference/startree-release-notes/0.12.0.md)
+- [Release version 0.14.0: March 2026](https://docs.startree.ai/reference/startree-release-notes/0.14.0.md)
+- [Release version 0.15.0: April 2026](https://docs.startree.ai/reference/startree-release-notes/0.15.0.md)
+- [Release Version 0.4.0: April-May 2022](https://docs.startree.ai/reference/startree-release-notes/0.4.0.md)
+- [Release Version 0.5.0: Jun-Aug 2022](https://docs.startree.ai/reference/startree-release-notes/0.5.0.md)
+- [Release Version 0.6.0: Feb 2023](https://docs.startree.ai/reference/startree-release-notes/0.6.0.md)
+- [Release Version 0.6.1: Apr 2023](https://docs.startree.ai/reference/startree-release-notes/0.6.1.md)
+- [Release Version 0.7.0: August 2023](https://docs.startree.ai/reference/startree-release-notes/0.7.0.md)
+- [Release Version 0.7.1: November 2023](https://docs.startree.ai/reference/startree-release-notes/0.7.1.md)
+- [Release Version 0.7.2: Dec 2023](https://docs.startree.ai/reference/startree-release-notes/0.7.2.md)
+- [Release Version 0.8.0: February 2024](https://docs.startree.ai/reference/startree-release-notes/0.8.0.md)
+- [Release Version 0.8.1: April-May 2024](https://docs.startree.ai/reference/startree-release-notes/0.8.1.md)
+- [Release Version 0.9.0: June 2024](https://docs.startree.ai/reference/startree-release-notes/0.9.0.md)
+- [Data Portal Release Notes](https://docs.startree.ai/reference/startree-release-notes/data-portal.md)
+- [Access Control in ThirdEye](https://docs.startree.ai/thirdeye/access-control-in-thirdeye.md)
+- [Alert Configuration and Execution](https://docs.startree.ai/thirdeye/alert-configuration.md)
+- [ThirdEye Dimensions Recommender](https://docs.startree.ai/thirdeye/cohort-recommender.md)
+- [Anomaly Detection Algorithms](https://docs.startree.ai/thirdeye/concepts-data-alerts-notifications/concepts-anomaly-detection-algorithms.md)
+- [Anomaly Merger Rules](https://docs.startree.ai/thirdeye/concepts-data-alerts-notifications/concepts-anomaly-merger-rules.md)
+- [Heatmaps](https://docs.startree.ai/thirdeye/concepts-data-alerts-notifications/concepts-heatmaps.md)
+- [Mutable Data](https://docs.startree.ai/thirdeye/concepts-data-alerts-notifications/concepts-mutable-data.md)
+- [Top contributor algorithm](https://docs.startree.ai/thirdeye/concepts-data-alerts-notifications/concepts-top-contributor-algorithm.md)
+- [ThirdEye Architecture](https://docs.startree.ai/thirdeye/concepts-thirdeye-components/concepts-thirdeye-architecture.md)
+- [ThirdEye Entities](https://docs.startree.ai/thirdeye/concepts-thirdeye-components/concepts-thirdeye-entities.md)
+- [ThirdEye Worker Management](https://docs.startree.ai/thirdeye/concepts-thirdeye-components/concepts-thirdeye-worker-management.md)
+- [Dimension exploration](https://docs.startree.ai/thirdeye/dimension-exploration.md)
+- [Alert Configuration Examples](https://docs.startree.ai/thirdeye/getting-started/alert-create-examples.md)
+- [Create your First Alert](https://docs.startree.ai/thirdeye/getting-started/create-your-first-alert.md)
+- [ThirdEye Data Requirements](https://docs.startree.ai/thirdeye/getting-started/data-requirements.md)
+- [Getting Started with ThirdEye](https://docs.startree.ai/thirdeye/getting-started/free-tier-tutorial.md)
+- [StarTree ThirdEye Getting Started Checklist](https://docs.startree.ai/thirdeye/getting-started/getting-started-checklist.md)
+- [ThirdEye Infrastructure Requirements](https://docs.startree.ai/thirdeye/getting-started/infrastructure-requirements.md)
+- [Install ThirdEye](https://docs.startree.ai/thirdeye/getting-started/install-thirdeye.md)
+- [StarTree ThirdEye Use Case Planning Template](https://docs.startree.ai/thirdeye/getting-started/use-case-template.md)
+- [Subscription Groups and Notification Systems](https://docs.startree.ai/thirdeye/how-tos/add_notification.md)
+- [Use Anomaly Filters to Tune Alerts](https://docs.startree.ai/thirdeye/how-tos/alert-tuning.md)
+- [Derived Metric Alerts](https://docs.startree.ai/thirdeye/how-tos/alert/derived-metric-alert.md)
+- [How to Use the Alert Creation UI](https://docs.startree.ai/thirdeye/how-tos/alert/how-to-use-alert-creation-ui.md)
+- [Manage Missing Data](https://docs.startree.ai/thirdeye/how-tos/alert/manage-missing-data.md)
+- [Multiple Inputs Alerts](https://docs.startree.ai/thirdeye/how-tos/alert/multiple-inputs-alerts.md)
+- [Alert Templates](https://docs.startree.ai/thirdeye/how-tos/alert/use-templates.md)
+- [Connect a Data Source](https://docs.startree.ai/thirdeye/how-tos/database.md)
+- [Pinot as a ThirdEye Datasource](https://docs.startree.ai/thirdeye/how-tos/database/pinot.md)
+- [Pinot SQL as a ThirdEye Datasource](https://docs.startree.ai/thirdeye/how-tos/database/pinot-sql.md)
+- [Managed Pinot as a ThirdEye Datasource](https://docs.startree.ai/thirdeye/how-tos/database/startree-pinot.md)
+- [Manage Holiday Effects with StarTree ETS](https://docs.startree.ai/thirdeye/how-tos/manage-holiday-effect.md)
+- [Use Pre-Computed Time Columns](https://docs.startree.ai/thirdeye/how-tos/optimize/optimize_queries_with_precomputed_timebuckets.md)
+- [How to perform root cause analysis](https://docs.startree.ai/thirdeye/how-tos/perform-root-cause-analysis.md)
+- [Monitoring Ad Campaign Performance](https://docs.startree.ai/thirdeye/how-tos/thirdeye_recipes/ad_campaign_performance_monitoring.md)
+- [Monitoring Consumer Product User Experience KPIs](https://docs.startree.ai/thirdeye/how-tos/thirdeye_recipes/consumer_product_user_experience.md)
+- [Monitoring Store Sales KPI for an eCommerce Retail Store](https://docs.startree.ai/thirdeye/how-tos/thirdeye_recipes/eCommerce_store_sales.md)
+- [Using Role-Based Access Control with ThirdEye](https://docs.startree.ai/thirdeye/how-tos/thirdeye_recipes/rbac-recipe.md)
+- [Monitoring Rideshare Booking Metrics for Customer Satisfaction](https://docs.startree.ai/thirdeye/how-tos/thirdeye_recipes/rideshare_recipe.md)
+- [How to use the ThirdEye API](https://docs.startree.ai/thirdeye/how-tos/use-the-api.md)
+- [Overview](https://docs.startree.ai/thirdeye/operators.md)
+- [AnomalyDetector](https://docs.startree.ai/thirdeye/operators/anomaly-detector.md)
+- [ABSOLUTE_CHANGE](https://docs.startree.ai/thirdeye/operators/anomaly-detector/absolute.md)
+- [ETS](https://docs.startree.ai/thirdeye/operators/anomaly-detector/ets.md)
+- [REMOTE_HTTP](https://docs.startree.ai/thirdeye/operators/anomaly-detector/http.md)
+- [MATRIX_PROFILE](https://docs.startree.ai/thirdeye/operators/anomaly-detector/matrix_profile.md)
+- [MEAN_VARIANCE](https://docs.startree.ai/thirdeye/operators/anomaly-detector/mean_variance.md)
+- [OFFSET_AGGREGATION](https://docs.startree.ai/thirdeye/operators/anomaly-detector/offset_aggregation.md)
+- [PERCENTAGE_CHANGE](https://docs.startree.ai/thirdeye/operators/anomaly-detector/percentage.md)
+- [THRESHOLD](https://docs.startree.ai/thirdeye/operators/anomaly-detector/threshold.md)
+- [DataFetcher](https://docs.startree.ai/thirdeye/operators/data-fetcher.md)
+- [Dimension Drift Operators](https://docs.startree.ai/thirdeye/operators/dimension-drift.md)
+- [Lookback Drift Operator](https://docs.startree.ai/thirdeye/operators/dimension-drift/lookback-drift-operator.md)
+- [Static Drift Operator](https://docs.startree.ai/thirdeye/operators/dimension-drift/static-drift-operator.md)
+- [Dimension Exploration](https://docs.startree.ai/thirdeye/operators/dimension-exploration.md)
+- [EventFetcher](https://docs.startree.ai/thirdeye/operators/event-fetcher.md)
+- [PostProcessor](https://docs.startree.ai/thirdeye/operators/post-processor.md)
+- [ANOMALY_MERGER](https://docs.startree.ai/thirdeye/operators/post-processor/anomaly_merger.md)
+- [COLD_START](https://docs.startree.ai/thirdeye/operators/post-processor/cold_start.md)
+- [DETECTOR](https://docs.startree.ai/thirdeye/operators/post-processor/detector.md)
+- [EVENTS](https://docs.startree.ai/thirdeye/operators/post-processor/events.md)
+- [IMPACT](https://docs.startree.ai/thirdeye/operators/post-processor/impact.md)
+- [THRESHOLD](https://docs.startree.ai/thirdeye/operators/post-processor/threshold.md)
+- [TIME_OF_WEEK](https://docs.startree.ai/thirdeye/operators/post-processor/time_of_week.md)
+- [SqlExecution](https://docs.startree.ai/thirdeye/operators/sql-operator.md)
+- [TimeIndexFiller](https://docs.startree.ai/thirdeye/operators/time-index-filler.md)
+- [Aggregation Functions](https://docs.startree.ai/thirdeye/rca-aggregation-functions.md)
+- [Resources](https://docs.startree.ai/thirdeye/resources/presentations.md)
+- [startree-absolute-rule](https://docs.startree.ai/thirdeye/templates/startree-absolute-rule.md)
+- [startree-absolute-rule-dx](https://docs.startree.ai/thirdeye/templates/startree-absolute-rule-dx.md)
+- [startree-absolute-rule-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-absolute-rule-percentile-dx.md)
+- [startree-absolute-rule-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-absolute-rule-percentile-query-dx.md)
+- [startree-absolute-rule-query-dx](https://docs.startree.ai/thirdeye/templates/startree-absolute-rule-query-dx.md)
+- [startree-drift-continuous](https://docs.startree.ai/thirdeye/templates/startree-drift-continuous.md)
+- [startree-drift-continuous-dx](https://docs.startree.ai/thirdeye/templates/startree-drift-continuous-dx.md)
+- [startree-drift-continuous-query-dx](https://docs.startree.ai/thirdeye/templates/startree-drift-continuous-query-dx.md)
+- [startree-drift-discrete](https://docs.startree.ai/thirdeye/templates/startree-drift-discrete.md)
+- [startree-drift-discrete-dx](https://docs.startree.ai/thirdeye/templates/startree-drift-discrete-dx.md)
+- [startree-drift-discrete-query-dx](https://docs.startree.ai/thirdeye/templates/startree-drift-discrete-query-dx.md)
+- [startree-ets](https://docs.startree.ai/thirdeye/templates/startree-ets.md)
+- [startree-ets-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-dx.md)
+- [startree-ets-percentile](https://docs.startree.ai/thirdeye/templates/startree-ets-percentile.md)
+- [startree-ets-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-percentile-dx.md)
+- [startree-ets-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-percentile-query-dx.md)
+- [startree-ets-query-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-query-dx.md)
+- [startree-ets-ratio](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio.md)
+- [startree-ets-ratio-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio-dx.md)
+- [startree-ets-ratio-percentile](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio-percentile.md)
+- [startree-ets-ratio-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio-percentile-dx.md)
+- [startree-ets-ratio-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio-percentile-query-dx.md)
+- [startree-ets-ratio-query-dx](https://docs.startree.ai/thirdeye/templates/startree-ets-ratio-query-dx.md)
+- [startree-experimental-mean-variance-with-mask](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask.md)
+- [startree-experimental-mean-variance-with-mask-dx](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask-dx.md)
+- [startree-experimental-mean-variance-with-mask-percentile](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask-percentile.md)
+- [startree-experimental-mean-variance-with-mask-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask-percentile-dx.md)
+- [startree-experimental-mean-variance-with-mask-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask-percentile-query-dx.md)
+- [startree-experimental-mean-variance-with-mask-query-dx](https://docs.startree.ai/thirdeye/templates/startree-experimental-mean-variance-with-mask-query-dx.md)
+- [startree-matrix-profile](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile.md)
+- [startree-matrix-profile-dx](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile-dx.md)
+- [startree-matrix-profile-percentile](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile-percentile.md)
+- [startree-matrix-profile-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile-percentile-dx.md)
+- [startree-matrix-profile-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile-percentile-query-dx.md)
+- [startree-matrix-profile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-matrix-profile-query-dx.md)
+- [startree-mean-variance](https://docs.startree.ai/thirdeye/templates/startree-mean-variance.md)
+- [startree-mean-variance-dx](https://docs.startree.ai/thirdeye/templates/startree-mean-variance-dx.md)
+- [startree-mean-variance-percentile](https://docs.startree.ai/thirdeye/templates/startree-mean-variance-percentile.md)
+- [startree-mean-variance-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-mean-variance-percentile-dx.md)
+- [startree-mean-variance-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-mean-variance-percentile-query-dx.md)
+- [startree-mean-variance-query-dx](https://docs.startree.ai/thirdeye/templates/startree-mean-variance-query-dx.md)
+- [startree-mstl](https://docs.startree.ai/thirdeye/templates/startree-mstl.md)
+- [startree-mstl-dx](https://docs.startree.ai/thirdeye/templates/startree-mstl-dx.md)
+- [startree-mstl-percentile](https://docs.startree.ai/thirdeye/templates/startree-mstl-percentile.md)
+- [startree-mstl-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-mstl-percentile-dx.md)
+- [startree-mstl-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-mstl-percentile-query-dx.md)
+- [startree-mstl-query-dx](https://docs.startree.ai/thirdeye/templates/startree-mstl-query-dx.md)
+- [startree-offset-aggregation](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation.md)
+- [startree-offset-aggregation-dx](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation-dx.md)
+- [startree-offset-aggregation-percentile](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation-percentile.md)
+- [startree-offset-aggregation-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation-percentile-dx.md)
+- [startree-offset-aggregation-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation-percentile-query-dx.md)
+- [startree-offset-aggregation-query-dx](https://docs.startree.ai/thirdeye/templates/startree-offset-aggregation-query-dx.md)
+- [startree-percentage-rule](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule.md)
+- [startree-percentage-rule-dx](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule-dx.md)
+- [startree-percentage-rule-percentile](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule-percentile.md)
+- [startree-percentage-rule-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule-percentile-dx.md)
+- [startree-percentage-rule-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule-percentile-query-dx.md)
+- [startree-percentage-rule-query-dx](https://docs.startree.ai/thirdeye/templates/startree-percentage-rule-query-dx.md)
+- [startree-remote-http](https://docs.startree.ai/thirdeye/templates/startree-remote-http.md)
+- [startree-remote-http-dx](https://docs.startree.ai/thirdeye/templates/startree-remote-http-dx.md)
+- [startree-remote-http-percentile](https://docs.startree.ai/thirdeye/templates/startree-remote-http-percentile.md)
+- [startree-remote-http-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-remote-http-percentile-dx.md)
+- [startree-remote-http-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-remote-http-percentile-query-dx.md)
+- [startree-remote-http-query-dx](https://docs.startree.ai/thirdeye/templates/startree-remote-http-query-dx.md)
+- [startree-threshold](https://docs.startree.ai/thirdeye/templates/startree-threshold.md)
+- [startree-threshold-dx](https://docs.startree.ai/thirdeye/templates/startree-threshold-dx.md)
+- [startree-threshold-percentile](https://docs.startree.ai/thirdeye/templates/startree-threshold-percentile.md)
+- [startree-threshold-percentile-dx](https://docs.startree.ai/thirdeye/templates/startree-threshold-percentile-dx.md)
+- [startree-threshold-percentile-query-dx](https://docs.startree.ai/thirdeye/templates/startree-threshold-percentile-query-dx.md)
+- [startree-threshold-query-dx](https://docs.startree.ai/thirdeye/templates/startree-threshold-query-dx.md)
+- [Frequently Asked Questions](https://docs.startree.ai/thirdeye/troubleshooting/faq.md)
+- [ThirdEye Observability and Monitoring](https://docs.startree.ai/thirdeye/troubleshooting/thirdeye-observability-and-monitoring.md)
+- [Scaling Workers](https://docs.startree.ai/thirdeye/worker-scaling.md)
+
+## OpenAPI Specs
+
+- [openapi](https://docs.startree.ai/openapi.yaml)
+
+## Optional
+
+- [Community](https://inviter.co/startree-community)
+- [Blogs](https://startree.ai/resources/category/blog)
+- [Videos](https://www.youtube.com/startreedata)

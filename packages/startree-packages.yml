@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/startreedata
+packages:
+  - language: python
+    registry: pypi
+    name: pinotdb
+    url: https://pypi.org/project/pinotdb/
+    install: pip install pinotdb
+    repo: https://github.com/startreedata/pinot-dbapi
+    description: Python DB-API and SQLAlchemy dialect for Apache Pinot / StarTree.
+    official: true
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/startreedata/pinot-client-go
+    url: https://pkg.go.dev/github.com/startreedata/pinot-client-go
+    install: go get github.com/startreedata/pinot-client-go
+    repo: https://github.com/startreedata/pinot-client-go
+    description: Apache Pinot Golang client managed by StarTree.
+    official: true
+  - language: ruby
+    registry: rubygems
+    name: pinot-client
+    url: https://rubygems.org/gems/pinot-client
+    install: gem install pinot-client
+    repo: https://github.com/startreedata/ruby-pinot-client
+    description: Ruby client for Apache Pinot.
+    official: true
+  - language: python
+    registry: pypi
+    name: mcp-pinot-server
+    url: https://pypi.org/project/mcp-pinot-server/
+    install: pip install mcp-pinot-server
+    repo: https://github.com/startreedata/mcp-pinot
+    description: Model Context Protocol (MCP) server for Apache Pinot / StarTree.
+    official: true

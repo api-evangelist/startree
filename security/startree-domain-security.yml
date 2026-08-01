@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: startree.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 12 10:00:32 2026 GMT
+  hsts: false
+- host: broker.pinot.celpxu.cp.s7e.startree.cloud
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 31 23:59:59 2027 GMT
+  hsts: null
+domains:
+- domain: startree.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: startree.cloud
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

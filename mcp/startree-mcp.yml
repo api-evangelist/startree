@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://github.com/startreedata/mcp-pinot
+server:
+  name: mcp-pinot
+  transport: stdio        # stdio (recommended) | http/sse alternative
+  package: mcp-pinot-server
+  registry: pypi
+  install: pip install mcp-pinot-server
+  repo: https://github.com/startreedata/mcp-pinot
+  description: >-
+    Official StarTree MCP server for Apache Pinot. Lets an agent list tables,
+    segments, and schema info and execute read-only SQL queries against a
+    Pinot / StarTree Cloud cluster.
+tools:
+  - name: list_tables
+    description: List the tables available in the Pinot / StarTree cluster.
+  - name: get_table_detail
+    description: Retrieve schema, index, and column-level metadata for a table.
+  - name: list_segments
+    description: List and inspect segments for a table.
+  - name: get_table_config
+    description: Retrieve table configuration.
+  - name: query
+    description: Execute a read-only SQL query (SELECT / WITH...SELECT) and return rows.
+    source_operation: openapi/startree-query-openapi.json#executeQuery
