@@ -1,0 +1,153 @@
+{
+  "item": [
+    {
+      "id": "0b126926-4c90-40e6-a3ae-e83dbf6b2d8b",
+      "name": "Query API",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "abf8d02d-9d66-4232-b829-9f4706261ba1",
+          "name": "Execute a SQL query",
+          "request": {
+            "name": "Execute a SQL query",
+            "description": {
+              "content": "Run SQL queries on StarTree Cloud's real-time analytics engine.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "query",
+                "sql"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) Workspace ID for multi-tenant clusters (e.g., Free Tier). Not required for dedicated clusters.",
+                "key": "database",
+                "value": "<string>"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{bearerToken}}"
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sql\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "997261a5-d7cd-48e9-85dc-f14c22d368b0",
+              "name": "Query executed successfully.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "query",
+                    "sql"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "disabled": false,
+                    "description": "(Required) Workspace ID for multi-tenant clusters (e.g., Free Tier). Not required for dedicated clusters.",
+                    "key": "database",
+                    "value": "ws_2kc8e2dnzzb0"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"sql\": \"SELECT * FROM eth_raw_logs_v2 LIMIT 1\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"resultTable\": {\n    \"dataSchema\": {\n      \"columnNames\": [\n        \"id\",\n        \"log_index\",\n        \"transaction_hash\"\n      ],\n      \"columnDataTypes\": [\n        \"LONG\",\n        \"INT\",\n        \"STRING\"\n      ]\n    },\n    \"rows\": [\n      [\n        123456,\n        42,\n        \"0xabc123...\"\n      ],\n      [\n        123456,\n        42,\n        \"0xabc123...\"\n      ]\n    ]\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://broker.pinot.celpxu.cp.s7e.startree.cloud",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "814efa64-823b-46c6-ae18-aef1c7ff9f02",
+    "name": "StarTree Cloud Query Query API API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "API for executing SQL queries on StarTree Cloud.",
+      "type": "text/plain"
+    }
+  }
+}

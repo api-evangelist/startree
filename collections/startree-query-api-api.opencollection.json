@@ -1,0 +1,43 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "StarTree Cloud Query Query API API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Query API",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Execute a SQL query",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://broker.pinot.celpxu.cp.s7e.startree.cloud/query/sql",
+            "headers": [
+              {
+                "name": "database",
+                "value": ""
+              }
+            ],
+            "body": {
+              "type": "json",
+              "data": "{}"
+            },
+            "auth": {
+              "type": "bearer",
+              "token": "{{bearerToken}}"
+            }
+          },
+          "docs": "Run SQL queries on StarTree Cloud's real-time analytics engine."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
