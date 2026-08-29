@@ -9,6 +9,18 @@ description: >-
   detection. It ships enterprise security (RBAC, SSO, encryption, SOC 2 / ISO 27001
   / HIPAA) with SaaS, BYOC, and BYOK deployment options, and exposes Controller,
   Broker, and Query REST APIs plus an official MCP server for agents.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
