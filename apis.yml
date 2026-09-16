@@ -1,14 +1,12 @@
 aid: startree
 name: StarTree
-description: >-
-  StarTree is a real-time analytics platform built on Apache Pinot, the open-source
-  OLAP database for user-facing and agent-facing analytics. StarTree Cloud is the
-  fully managed, enterprise-grade service — sub-second queries at high concurrency,
-  streaming and batch ingestion up to millions of events per second, scalable
-  upserts, in-place queries on Apache Iceberg tables, and ThirdEye anomaly
-  detection. It ships enterprise security (RBAC, SSO, encryption, SOC 2 / ISO 27001
-  / HIPAA) with SaaS, BYOC, and BYOK deployment options, and exposes Controller,
-  Broker, and Query REST APIs plus an official MCP server for agents.
+description: StarTree is a real-time analytics platform built on Apache Pinot, the open-source OLAP database
+  for user-facing and agent-facing analytics. StarTree Cloud is the fully managed, enterprise-grade service
+  — sub-second queries at high concurrency, streaming and batch ingestion up to millions of events per
+  second, scalable upserts, in-place queries on Apache Iceberg tables, and ThirdEye anomaly detection.
+  It ships enterprise security (RBAC, SSO, encryption, SOC 2 / ISO 27001 / HIPAA) with SaaS, BYOC, and
+  BYOK deployment options, and exposes Controller, Broker, and Query REST APIs plus an official MCP server
+  for agents.
 deliveryModel:
   model: saas
   open_source: false
@@ -46,7 +44,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-16'
 tags:
 - Company
 - Data
@@ -58,7 +56,7 @@ tags:
 - Database
 apis:
 - aid: startree:startree-query-api-api
-  name: StarTree Query API API
+  name: StarTree Query API
   description: The Query API API from StarTree — 1 operation(s) for query api.
   humanURL: https://docs.startree.ai/api-reference/introduction
   baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
