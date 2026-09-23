@@ -1,7 +1,7 @@
 {
   "provider": "startree",
   "sources": [
-    "startree-query-api-api-openapi.yml"
+    "_original/startree-query-openapi.json"
   ],
   "outputs": [
     "startree-query-api-api-openapi.yml"
@@ -9,6 +9,13 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "startree-query-openapi.json: upgraded openapi 3.0.0 -> OpenAPI 3.2.0",
+    "startree-query-openapi.json: declared missing tag: Query API",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "startree-query-api-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

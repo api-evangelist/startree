@@ -1,6 +1,6 @@
-openapi: 3.0.0
+openapi: 3.2.0
 info:
-  title: StarTree Cloud Query Query API API
+  title: StarTree Cloud Query Query API
   description: API for executing SQL queries on StarTree Cloud.
   version: 1.0.0
 servers:
